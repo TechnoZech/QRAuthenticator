@@ -1,0 +1,28 @@
+.qr_scan_image_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr_scan_image{
+    width: 300px;
+    
+}
+
+.qr_scan_content_btn{
+    margin-top: 20px;
+    font-size: 1rem;
+    background-color: #252525;
+    color: #00caca;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.qr_scan_content_btn:hover{
+    background-color: #383838;
+    color: #00caca;
+}

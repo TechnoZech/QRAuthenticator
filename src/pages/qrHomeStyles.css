@@ -1,3 +1,41 @@
-h1{
-    background-color: blue;
+.qr_home_container{
+    margin: 5% 15%;
+    width: 1100px;
+    height: 550px;
+    padding: 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    border: 2px solid #515151;
+    border-radius: 20px;
+}
+
+.qr_home_image{
+    width: 300px;
+    margin-right: 100px;
+}
+
+.qr_home_content_heading{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #00caca;
+}
+
+.qr_home_content_btn{
+    margin-top: 30px;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #252525;
+    color: #FFFFFF;
+    border: 2px solid #00caca;
+    margin-right: 20px;
+}
+
+.qr_home_content_btn:hover{
+    background-color: #00caca;
+    color: #252525;
 }
