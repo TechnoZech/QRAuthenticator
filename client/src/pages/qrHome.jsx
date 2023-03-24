@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import "./qrHomeStyles.css";
 import home_hero from "../assets/home-hero.png";
 
-function qrHome() {
+function QrHome() {
+
+	
+
 	return (
 		<>
 			<section className="qr_home_section">
@@ -28,7 +32,7 @@ function qrHome() {
 	);
 }
 
-export default qrHome;
+export default QrHome;
 
 
 // https://apps.apple.com/us/app/google-authenticator/id388497605

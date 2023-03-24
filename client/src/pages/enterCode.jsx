@@ -2,7 +2,7 @@ import React from 'react';
 import "./enterCodeStyles.css";
 import { Link } from "react-router-dom";
 
-function enterCode() {
+function EnterCode() {
   return (
     <section className="enterCode_section">
         <div className="enterCode_container">
@@ -25,4 +25,4 @@ function enterCode() {
   )
 }
 
-export default enterCode
+export default EnterCode
